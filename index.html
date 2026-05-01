@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的世界服务器商店</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{
+            background:#18191c;
+            color:#fff;
+            font-family:"微软雅黑",sans-serif;
+            padding:20px;
+        }
+        .wrap{
+            max-width:1100px;
+            margin:0 auto;
+        }
+        .top{
+            text-align:center;
+            padding:40px 0;
+            border-bottom:1px solid #2f3136;
+            margin-bottom:40px;
+        }
+        .top h1{
+            color:#7289da;
+            font-size:32px;
+            margin-bottom:12px;
+        }
+        .top p{
+            color:#99aab5;
+            font-size:16px;
+        }
+        .shop-grid{
+            display:grid;
+            grid-template-columns: repeat(auto-fill,minmax(260px,1fr));
+            gap:24px;
+        }
+        .item-card{
+            background:#202225;
+            border-radius:14px;
+            padding:24px;
+            border:1px solid #2f3136;
+            transition:all 0.3s ease;
+        }
+        .item-card:hover{
+            border-color:#7289da;
+            transform:translateY(-6px);
+        }
+        .item-card h3{
+            font-size:20px;
+            margin-bottom:10px;
+        }
+        .desc{
+            color:#99aab5;
+            font-size:14px;
+            line-height:1.6;
+            margin-bottom:16px;
+        }
+        .price{
+            font-size:24px;
+            color:#faa61a;
+            font-weight:bold;
+            margin-bottom:18px;
+        }
+        .buy-btn{
+            display:block;
+            width:100%;
+            text-align:center;
+            padding:12px 0;
+            background:#7289da;
+            color:#fff;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+            transition:0.2s;
+        }
+        .buy-btn:hover{
+            background:#5b73b7;
+        }
+        .contact{
+            text-align:center;
+            margin-top:60px;
+            padding-top:30px;
+            border-top:1px solid #2f3136;
+            color:#99aab5;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="top">
+            <h1>我的世界服务器商城</h1>
+            <p>服务器IP：mc.server.com | 游戏版本：1.20.x 纯净生存服</p>
+        </div>
+
+        <div class="shop-grid">
+            <!-- 商品1 -->
+            <div class="item-card">
+                <h3>月度VIP会员</h3>
+                <div class="desc">飞行权限、领地扩容、专属聊天前缀、每日在线礼包</div>
+                <div class="price">¥15.00</div>
+                <a href="https://qq.com" target="_blank" class="buy-btn">联系客服购买</a>
+            </div>
+            <!-- 商品2 -->
+            <div class="item-card">
+                <h3>年度至尊VIP</h3>
+                <div class="desc">全服最高权限、免费领取每周物资、自定义称号、管理员通道</div>
+                <div class="price">¥128.00</div>
+                <a href="https://qq.com" target="_blank" class="buy-btn">联系客服购买</a>
+            </div>
+            <!-- 商品3 -->
+            <div class="item-card">
+                <h3>1000服务器点券</h3>
+                <div class="desc">可兑换神器、附魔装备、领地、道具礼包</div>
+                <div class="price">¥10.00</div>
+                <a href="https://qq.com" target="_blank" class="buy-btn">联系客服购买</a>
+            </div>
+            <!-- 商品4 -->
+            <div class="item-card">
+                <h3>大型领地地皮</h3>
+                <div class="desc">超大范围领地、全自动保护、防破坏防熊</div>
+                <div class="price">¥20.00</div>
+                <a href="https://qq.com" target="_blank" class="buy-btn">联系客服购买</a>
+            </div>
+            <!-- 商品5 -->
+            <div class="item-card">
+                <h3>神器·寰宇神剑</h3>
+                <div class="desc">满配附魔、无限耐久、超高攻击伤害</div>
+                <div class="price">¥29.00</div>
+                <a href="https://qq.com" target="_blank" class="buy-btn">联系客服购买</a>
+            </div>
+            <!-- 商品6 -->
+            <div class="item-card">
+                <h3>新手开局大礼包</h3>
+                <div class="desc">全套钻石装备、附魔书、食物、建筑方块</div>
+                <div class="price">¥5.00</div>
+                <a href="https://qq.com" target="_blank" class="buy-btn">联系客服购买</a>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>客服QQ：<strong>123456789</strong> | 暝雨商店 · 永久可用</p>
+            <p style="margin-top:10px;">© 2025 MC服务器商城 静态版</p>
+        </div>
+    </div>
+</body>
+</html>
